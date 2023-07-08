@@ -11,8 +11,8 @@ connection = sqlite3.connect("Company.db")
 crsr = connection.cursor()
 
 date = datetime.datetime.now().date()
-list_usernames = [""]
-list_passwords = ['']
+list_usernames = ["aj"]
+list_passwords = ['aj']
 
 class Application( object ):
 
@@ -34,7 +34,7 @@ class Application( object ):
 
         #TITLE
         self.title_lbl = Label(self.top, text = "COMPANY", font = "Broadway 60 bold", fg = "#BD2312", bg = "#FFF3F3")
-        self.title_lbl.place(x=40,y=140)
+        self.title_lbl.place(x=100,y=140)
 
         #DATE
         self.date_today = Label(self.top, text = "Today's date is: " + str(date), font = "Georgia 10 bold", fg = "#7C150A", bg = "#FFF3F3" )
@@ -42,7 +42,7 @@ class Application( object ):
 
         #INFO ABOUT COMPANY
         self.title_info = Label(self.top, text="Company is an end to end solutions company. Our endeavor is to offer a hassle free experience in the areas of design, project supervision, execution and much more.", font="Courier 12 bold", fg="#B07F1C", bg="#FFF3F3", wraplength = 560,)
-        self.title_info.place(x=40, y=240)
+        self.title_info.place(x=60, y=240)
 
         #LOG IN
         self.log_in_lbl = Label(self.bottom, text="Member Portal", bg = "#FFD28E", fg = "#767171",  font="broadway 25")

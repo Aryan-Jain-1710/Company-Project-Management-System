@@ -21,7 +21,7 @@ class About_us(Toplevel):
 
         # TITLE
         self.title_lbl = Label(self.top, text="ABOUT US", font="Broadway 60 bold", fg="#BD2312", bg="white")
-        self.title_lbl.place(x=40, y=20)
+        self.title_lbl.place(x=100, y=20)
 
         #INFO ABOUT COMPANY
         self.title_info = Label(self.bottom, text="Company is an end to end solutions company. Our endeavor is to offer a hassle free experience in the areas of design, project supervision, execution and much more.", font="Gothem 12 bold", fg="#B07F1C", bg="#FABC5F", wraplength = 560,)
