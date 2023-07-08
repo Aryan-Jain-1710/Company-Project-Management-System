@@ -8,7 +8,7 @@ from ttkthemes import themed_tk as tk
 from tkinter import ttk
 
 
-connection = sqlite3.connect("Ladderrise.db")
+connection = sqlite3.connect("company.db")
 crsr = connection.cursor()
 
 
@@ -17,7 +17,7 @@ class Add_member(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)

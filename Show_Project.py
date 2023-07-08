@@ -8,7 +8,7 @@ from ttkthemes import themed_tk as tk
 from tkinter import ttk
 
 
-connection = sqlite3.connect("Ladderrise.db")
+connection = sqlite3.connect("Company.db")
 crsr = connection.cursor()
 
 class Show_project(Toplevel):
@@ -16,7 +16,7 @@ class Show_project(Toplevel):
     def __init__(self):
 
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("1000x650+300+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -190,7 +190,7 @@ class Show_team_project(Toplevel):
     def __init__(self):
 
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -290,7 +290,7 @@ class Add_member(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -374,7 +374,7 @@ class View_member(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -449,7 +449,7 @@ class Update_member(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -549,7 +549,7 @@ class Show_inventory_project(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -651,7 +651,7 @@ class Add_material(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -729,7 +729,7 @@ class View_material(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -795,7 +795,7 @@ class Update_material(Toplevel):
 
     def __init__(self):
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)

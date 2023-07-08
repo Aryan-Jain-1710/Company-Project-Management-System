@@ -7,7 +7,7 @@ import Logged_In
 from ttkthemes import themed_tk as tk
 
 
-connection = sqlite3.connect("Ladderrise.db")
+connection = sqlite3.connect("Company.db")
 crsr = connection.cursor()
 
 date = datetime.datetime.now().date()
@@ -33,7 +33,7 @@ class Application( object ):
         # self.top_image_lbl.place(x=10, y=10)
 
         #TITLE
-        self.title_lbl = Label(self.top, text = "LADDERRISE", font = "Broadway 60 bold", fg = "#BD2312", bg = "#FFF3F3")
+        self.title_lbl = Label(self.top, text = "COMPANY", font = "Broadway 60 bold", fg = "#BD2312", bg = "#FFF3F3")
         self.title_lbl.place(x=40,y=140)
 
         #DATE
@@ -41,7 +41,7 @@ class Application( object ):
         self.date_today.place(x=440, y=0)
 
         #INFO ABOUT COMPANY
-        self.title_info = Label(self.top, text="Ladder Rise is an end to end interior solutions company which facilitates the entire interior work in and around Noida. Our endeavor is to offer a hassle free experience in the areas of design, project supervision, execution and much more.", font="Courier 12 bold", fg="#B07F1C", bg="#FFF3F3", wraplength = 560,)
+        self.title_info = Label(self.top, text="Company is an end to end solutions company. Our endeavor is to offer a hassle free experience in the areas of design, project supervision, execution and much more.", font="Courier 12 bold", fg="#B07F1C", bg="#FFF3F3", wraplength = 560,)
         self.title_info.place(x=40, y=240)
 
         #LOG IN
@@ -88,7 +88,7 @@ def main():
     root.get_themes()
     root.set_theme("arc")
     app = Application(root)
-    root.title("LADDERRISE")
+    root.title("Company")
     root.geometry("650x650+25+20")
     root.iconbitmap()
     root.resizable(False, False)

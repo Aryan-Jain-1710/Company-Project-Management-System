@@ -11,7 +11,7 @@ class Logged_In(Toplevel):
     def __init__(self):
 
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)

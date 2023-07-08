@@ -7,7 +7,7 @@ class About_us(Toplevel):
     def __init__(self):
 
         Toplevel.__init__(self)
-        self.title("LADDERRISE")
+        self.title("COMPANY")
         self.geometry("650x650+680+20")
         self.iconbitmap()
         self.resizable(False, False)
@@ -24,5 +24,5 @@ class About_us(Toplevel):
         self.title_lbl.place(x=40, y=20)
 
         #INFO ABOUT COMPANY
-        self.title_info = Label(self.bottom, text="Ladder Rise is an end to end interior solutions company which facilitates the entire interior work in and around Noida. Our endeavor is to offer a hassle free experience in the areas of design, project supervision, execution and much more.", font="Gothem 12 bold", fg="#B07F1C", bg="#FABC5F", wraplength = 560,)
+        self.title_info = Label(self.bottom, text="Company is an end to end solutions company. Our endeavor is to offer a hassle free experience in the areas of design, project supervision, execution and much more.", font="Gothem 12 bold", fg="#B07F1C", bg="#FABC5F", wraplength = 560,)
         self.title_info.place(x=50, y=30)
