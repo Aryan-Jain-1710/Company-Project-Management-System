@@ -47,6 +47,8 @@ To run the program, run the Main_Page.py file. This will open up the GUI. To use
 <br>
 
 - In order to view projects, the user can click on the view projects button. This will open up a new window that will display all the projects in the database which includes the list of teams and inventory used in the project.
+- From there the user can view, add and delete a project.
+
 
 <img src="readme_docs/pic4.png" width="400">
 
