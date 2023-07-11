@@ -65,7 +65,7 @@ To run the program, run the Main_Page.py file. This will open up the GUI. To use
 
 - The user can click on show project on either the team or inventory to view the more information about the members in a team or the inventory being used in the project. The following snippet shows the action on clicking show project on the Team tab. From the page the user can add, delete, update and view team member or inventory information.
 
-<kbd><img src="readme_docs/pic6.PNG" width="600"></kbd>
+<kbd><img src="readme_docs/pic6.PNG" width="400"></kbd>
 
 <br>
 
